@@ -1,0 +1,15 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "App.tsx"
+    ]
+  },
+  "rules":{
+    "ordered-imports":false,
+    "no-console":false,
+    "no-debugger":false
+  }
+}
