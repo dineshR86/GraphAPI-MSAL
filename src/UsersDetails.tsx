@@ -29,7 +29,6 @@ export default class UsersDetails extends React.Component<any,any>{
         this.state={
             users:undefined
         }
-        // this._getAllUsers=this._getAllUsers.bind(this);
     }
 
     public render(){
